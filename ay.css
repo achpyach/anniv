@@ -1,0 +1,56 @@
+header{
+    text-align: center;
+    background:rgb(6, 48, 65);
+    padding: 20px;
+}
+header h1{
+    color: aqua;
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+header p{
+    color:rgb(250, 244, 244);
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 5%;
+    background-image: url('WhatsApp Image 2024-12-15 at 19.18.30.jpeg');
+    background-size: 100%;
+    color: #fcf3f3;
+}
+
+.box {
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.box1 {
+    background-color:rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 15px;
+    transition: transform 0.10s;
+}
+
+.box1 img {
+    width: 100%;
+    border-radius: 8px 8px 0 0;
+}
+
+.box1 h2 {
+    margin: 10px 0 5px;
+    background-color: rgba(255, 255, 255, .15);  
+    backdrop-filter: blur(5px);
+}
+
+.box1:hover {
+    transform: scale(1.05);
+}
